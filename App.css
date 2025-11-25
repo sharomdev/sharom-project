@@ -1,0 +1,205 @@
+@import "tailwindcss";
+/* app.css */
+
+/* Global background and font */
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styling */
+nav {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+nav button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+nav button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Form containers */
+.form-container {
+  background-color: white;
+  color: black;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.form-container input:focus {
+  box-shadow: 0 0 0 2px black;
+}
+
+.form-container button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #333;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 0.75rem;
+  border: 1px solid black;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+tr:hover {
+  background-color: #e0e0e0;
+}
+/* app.css */
+
+/* Global background and font */
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styling */
+nav {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+nav button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+nav button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Form containers */
+.form-container {
+  background-color: white;
+  color: black;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #666;
+  border-radius: 0.5rem;
+  outline: none;
+  background-color: #3b3434;
+  color: black;
+}
+
+.form-container input:focus {
+  box-shadow: 0 0 0 2px black;
+  background-color: #755a5a;
+}
+
+.form-container button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: rgb(34, 30, 30);
+  border: 1px solid white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 0.75rem;
+  border: 1px solid black;
+  text-align: center;
+}
+
+th {
+  background-color: #e0e0e0;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
